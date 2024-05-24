@@ -61,4 +61,25 @@ void main() {
 
   print('Numbers5: $numbers5');
   print('Doubled Numbers5: $doubledNumbers5');
+
+  /*
+  Explanation
+  Creating a List: Lists in Dart can be created using square brackets []. 
+  You can specify the type of elements in the list using generics, 
+  e.g., List<int> for a list of integers.
+
+  Adding Elements: You can add elements using the add method for a single element 
+  or addAll for multiple elements.
+
+  Removing Elements: Elements can be removed using the remove method for 
+  a specific element or removeAt for an element at a specific index.
+
+  Iterating Over a List: Dart provides several ways to iterate over a list, 
+  including a traditional for loop, a for-in loop, and the forEach method.
+
+  Collection if and Collection for: Dart's collection if and collection for 
+  allow you to conditionally include elements in a list or 
+  create new lists based on existing ones using concise syntax.
+
+  */
 }
