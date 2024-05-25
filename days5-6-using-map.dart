@@ -63,4 +63,27 @@ void main() {
 
   print('Apple Price5: $applePrice');
   print('Mango Price5: $mangoPrice'); // Will print 0 as Mango is not in the map
+
+  /*
+  Creating a Map: Maps in Dart are created using curly braces {} with 
+  key-value pairs separated by colons. You can specify the types of keys and 
+  values using generics, e.g., Map<String, int> for a map with string keys and 
+  integer values.
+
+  Adding Key-Value Pairs: You can add key-value pairs to a map using 
+  the subscript notation map[key] = value for a single pair or addAll method 
+  for multiple pairs.
+
+  Removing Key-Value Pairs: Key-value pairs can be removed using 
+  the remove method for a specific key or removeWhere method for pairs 
+  that match a condition.
+
+  Iterating Over a Map: Dart provides several ways to iterate over a map, 
+  including using a for loop with entries and the forEach method.
+
+  Accessing Values: Values in a map can be accessed using the key. 
+  The null-aware operator ?? can be used to provide a default value 
+  if the key does not exist in the map.
+
+  */
 }
